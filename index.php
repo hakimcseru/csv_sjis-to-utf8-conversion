@@ -30,7 +30,7 @@ function csv_sjis_to_utf8(){
 		fclose($myfile);
 
         // Set download file name
-        $fname = date('Y-m-d').'-'.'myname';
+        $fname = date('Y-m-d').'-'.'utf8';
 
         // Close output csv file 
         fclose($res);
